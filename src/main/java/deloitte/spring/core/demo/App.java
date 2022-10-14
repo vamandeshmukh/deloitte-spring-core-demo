@@ -6,14 +6,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * 
- * @author Vaman 
+ * @author Vaman
  * 
- * Document Link: 
+ *         Document Link:
  * 
- * https://docs.google.com/document/d/1gjd0EmZKpZsIGuU7zTre9IZaLqHeqwjyQtUixNDbIVU/edit?usp=sharing 
+ *         https://docs.google.com/document/d/1gjd0EmZKpZsIGuU7zTre9IZaLqHeqwjyQtUixNDbIVU/edit?usp=sharing
  *
  */
-
 
 public class App {
 
@@ -21,8 +20,13 @@ public class App {
 
 		System.out.println("Start");
 
-//		Employee obj = new Employee(101, "Sonu", 90000);
-//		System.out.println(obj.toString());
+
+		int num = 10;
+		
+//		Employee obj = new Employee();
+		Employee obj = new Employee(101, "Sonu", 90000);
+
+		System.out.println(obj.toString());
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
 

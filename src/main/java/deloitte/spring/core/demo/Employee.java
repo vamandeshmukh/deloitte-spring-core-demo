@@ -1,10 +1,13 @@
 package deloitte.spring.core.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Employee {
 
-	private int employeeId;
-	private String firstName;
-	private double salary;
+	private int employeeId = 101;
+	private String firstName = "Sonu";
+	private double salary = 90000;
 
 	public Employee() {
 		super();

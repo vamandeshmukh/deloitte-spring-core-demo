@@ -7,7 +7,6 @@
 	<!-- bean definitions here -->
 
 
-
 	<bean id="e2" class="deloitte.spring.core.demo.Employee">
 		<property name="employeeId">
 			<value>102</value>
